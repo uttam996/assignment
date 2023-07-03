@@ -1,39 +1,48 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import { UseMediaQueryHook } from "../useMediaQueryHook";
+
+const companylogo = require("../Dummydata/companylogo.json");
 
 export default function FeaturedCompanies() {
-  let companieslogo = new Array(10).fill(0).map((_, i) => {
-    return {
-// random company logo
-      id: i,
-      url: `https://picsum.photos/200/300?random=companieslogo`,
-    }
-  })
+  interface Company {
+    CompanyName: string;
+    ImageURL: string;
+  }
+
+  const mobile = UseMediaQueryHook("(max-width: 640px)");
+
   return (
     <div>
-      <section className="text-red-600 body-font">
-        FEATURED COMPANIES
-      </section>
-      // space between the logos
-
-
-      <div className='flex h-25 bg-blue-400 justify-around items-center	 '>
-        {companieslogo.map((company) => {
+      {
+        !mobile && (
+          <section className="text-red-600 p-2 bg-white">
+          <h1 className="text-xl text-red-500 font-medium ">
+            FEATURED COMPANIES
+          </h1>
+        </section>
+  
+        )
+      }
+     
+      <div className="flex p-2 bg-blue-100 justify-around items-center overflow-x-hidden	w-full	 ">
+        {companylogo.map((company: Company) => {
           return (
-          
-                <img
-                  className="h-20 w-40 rounded w-full object-cover object-center "
-                  src={company.url}
-                  alt="content"
-                />
-           
-              
-
-          )
-        }
-        )}
-
-        </div>
-
+            <div key={company.ImageURL}>
+            <Image
+       
+              src={company?.ImageURL}
+              alt={company?.CompanyName}
+              width={100}
+              height={100}
+              className= {
+mobile ? "rounded-full mix-blend-multiply border-2 border-red-500 mx-2 h-[50px] w-[50px]" : "mix-blend-multiply	"
+              }
+            />
+            </div>
+          );
+        })}
+      </div>
     </div>
-  )
+  );
 }

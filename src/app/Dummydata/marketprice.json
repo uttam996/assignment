@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Reliance Industries Ltd.",
+      "symbol": "RELIANCE",
+      "price": 2500.25,
+      "change_percentage": 1.75
+    },
+    {
+      "name": "Tata Consultancy Services Ltd.",
+      "symbol": "TCS",
+      "price": 3850.60,
+      "change_percentage": -0.50
+    },
+    {
+      "name": "HDFC Bank Ltd.",
+      "symbol": "HDFCBANK",
+      "price": 1475.75,
+      "change_percentage": 2.10
+    },
+    {
+      "name": "Infosys Ltd.",
+      "symbol": "INFY",
+      "price": 1700.35,
+      "change_percentage": 0.25
+    },
+    {
+      "name": "ICICI Bank Ltd.",
+      "symbol": "ICICIBANK",
+      "price": 620.80,
+      "change_percentage": -1.80
+    },
+    {
+      "name": "Hindustan Unilever Ltd.",
+      "symbol": "HINDUNILVR",
+      "price": 2250.90,
+      "change_percentage": 1.10
+    },
+    {
+      "name": "Axis Bank Ltd.",
+      "symbol": "AXISBANK",
+      "price": 770.40,
+      "change_percentage": -0.75
+    },
+    {
+      "name": "State Bank of India",
+      "symbol": "SBIN",
+      "price": 425.55,
+      "change_percentage": 0.60
+    },
+    {
+      "name": "Bharti Airtel Ltd.",
+      "symbol": "BHARTIARTL",
+      "price": 625.10,
+      "change_percentage": 1.90
+    },
+    {
+      "name": "Maruti Suzuki India Ltd.",
+      "symbol": "MARUTI",
+      "price": 8250.20,
+      "change_percentage": -2.30
+    }
+  ]
+  

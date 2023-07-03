@@ -1,0 +1,80 @@
+[
+      {
+        "StockCompanyAccountId": 13,
+        "CompanyId": null,
+        "FinCode": 132734,
+        "CompanyName": "Godawari Power & Ispat Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/godawari.jpg"
+      },
+      {
+        "StockCompanyAccountId": 14,
+        "CompanyId": null,
+        "FinCode": 200313,
+        "CompanyName": "Nath Bio-Genes (India) Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/nathbio.jpg"
+      },
+      {
+        "StockCompanyAccountId": 18,
+        "CompanyId": null,
+        "FinCode": 131595,
+        "CompanyName": "Capri Global Capital Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/caprinew1.jpg"
+      },
+      {
+        "StockCompanyAccountId": 19,
+        "CompanyId": null,
+        "FinCode": 115055,
+        "CompanyName": "Anant Raj Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/D1edit.jpg"
+      },
+      {
+        "StockCompanyAccountId": 20,
+        "CompanyId": null,
+        "FinCode": 210481,
+        "CompanyName": "Meghmani Finechem Ltd",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/meghmani.png"
+      },
+      {
+        "StockCompanyAccountId": 23,
+        "CompanyId": null,
+        "FinCode": 301999,
+        "CompanyName": "Deep Industries Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/deepind.png"
+      },
+      {
+        "StockCompanyAccountId": 25,
+        "CompanyId": null,
+        "FinCode": 222554,
+        "CompanyName": "Data Patterns (India) Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/dtpatten1.png"
+      },
+      {
+        "StockCompanyAccountId": 26,
+        "CompanyId": null,
+        "FinCode": 275070,
+        "CompanyName": "Infibeam Avenues Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/infibeamavenues.png"
+      },
+      {
+        "StockCompanyAccountId": 27,
+        "CompanyId": null,
+        "FinCode": 126367,
+        "CompanyName": "Ganesh Housing Corporation Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/ganeshhousing.jpg"
+      },
+      {
+        "StockCompanyAccountId": 28,
+        "CompanyId": null,
+        "FinCode": 208615,
+        "CompanyName": "Laxmi Organic Industries Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/lx2.png"
+      },
+      {
+        "StockCompanyAccountId": 29,
+        "CompanyId": null,
+        "FinCode": 100620,
+        "CompanyName": "The Great Eastern Shipping Company Ltd.",
+        "ImageURL": "https://s3.ap-south-1.amazonaws.com/goindiaconnect/UPLOADS/greate1.png"
+      }
+    ]
+  
